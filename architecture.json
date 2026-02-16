@@ -1,0 +1,30 @@
+{
+  "project_type": "web_app",
+  "description": "Frontend UI only. This repo contains pages, components, API client modules, and styles. Backend and infra live in other repos.",
+  "scope": "frontend",
+  "backend": {},
+  "frontend": {
+    "language": "typescript",
+    "framework": "react",
+    "feature_types": [
+      "file-upload"
+    ],
+    "version": "None",
+    "key_features": [
+      "Component-based architecture",
+      "State management with Redux"
+    ]
+  },
+  "languages": {
+    "frontend_language": "typescript",
+    "frontend_version": null,
+    "frontend_framework": "react",
+    "frontend_framework_version": "",
+    "project_type": "web_app",
+    "frontend_package_file": "package.json",
+    "frontend_package_manager": "npm"
+  },
+  "feature_types": [
+    "file-upload"
+  ]
+}
