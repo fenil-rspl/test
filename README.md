@@ -43,3 +43,7 @@ frontend/
 1. Clone the repository.
 2. Install dependencies: `npm install`
 3. Run the application: `npm run dev`
+
+## Architecture
+
+This repository follows a component-based architecture with reactive data binding using Vue.js and TypeScript.

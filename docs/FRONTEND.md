@@ -120,3 +120,7 @@ The application is structured into components, pages, services, and utilities, f
 
 ## Environment Variables
 - `REACT_APP_API_URL`: The base URL for the API.
+
+## Architecture
+
+This repository follows a component-based architecture with reactive data binding using Vue.js and TypeScript.
