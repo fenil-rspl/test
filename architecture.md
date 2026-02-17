@@ -1,24 +1,18 @@
 # Frontend Architecture
 
 ## User Request
-string
-
-## Project Requirements from Uploaded Documents
-
---- FILE: string ---
-
-string
-
+code 
 
 ## Scope
 This repository contains **only frontend code**: pages, components, API client modules (e.g. api.ts, auth.ts), and styles. No backend services or infra. Payment/auth logic is in the backend; this repo only calls backend APIs.
 
 ## Features (frontend only)
-- File Upload
+- UI / API clients
+
 
 ## Tech Stack (this repo)
 - Language: typescript
-- Framework: react
+- Framework: vue
 ## Details
 ```json
 {
@@ -28,27 +22,23 @@ This repository contains **only frontend code**: pages, components, API client m
   "backend": {},
   "frontend": {
     "language": "typescript",
-    "framework": "react",
-    "feature_types": [
-      "file-upload"
-    ],
+    "framework": "vue",
+    "feature_types": [],
     "version": "None",
     "key_features": [
       "Component-based architecture",
-      "State management with Redux"
+      "Reactive data binding"
     ]
   },
   "languages": {
     "frontend_language": "typescript",
     "frontend_version": null,
-    "frontend_framework": "react",
+    "frontend_framework": "vue",
     "frontend_framework_version": "",
     "project_type": "web_app",
     "frontend_package_file": "package.json",
     "frontend_package_manager": "npm"
   },
-  "feature_types": [
-    "file-upload"
-  ]
+  "feature_types": []
 }
 ```

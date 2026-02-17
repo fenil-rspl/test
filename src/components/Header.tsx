@@ -1,7 +1,16 @@
-import React from 'react';
-
-const Header = () => {
-  return <header><h1>File Upload App</h1></header>;
-};
-
-export default Header;
+<template>
+  <header>
+    <h1>My Application</h1>
+  </header>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({});
+</script>
+<style scoped>
+header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+}
+</style>

@@ -1,9 +1,8 @@
-# File Upload App
+# Frontend
 
-This is a frontend application for uploading files.
+This repository contains the frontend application built with Vue.js. It interacts with the backend API to provide a complete user interface.
 
 ## Directory Structure
-
 frontend/
 ├── docs/
 │   ├── FRONTEND.md
@@ -11,8 +10,6 @@ frontend/
 ├── src/
 │   ├── components/
 │   │   ├── Button.tsx
-│   │   ├── FileList.tsx
-│   │   ├── FileUpload.tsx
 │   │   ├── Footer.tsx
 │   │   ├── Header.tsx
 │   │   └── Navbar.tsx
@@ -33,14 +30,16 @@ frontend/
 │   ├── App.tsx
 │   ├── index.tsx
 │   └── main.css
+├── .env.example
 ├── .gitignore
 ├── Dockerfile
 ├── index.html
-└── package.json
+├── package.json
+├── README.md
+└── vite.config.js
 
 ## Quick Start
 
 1. Clone the repository.
-2. Run `npm install` to install dependencies.
-3. Create a `.env` file from `.env.example` and set your API URL.
-4. Run `npm start` to start the development server.
+2. Install dependencies: `npm install`
+3. Run the application: `npm run dev`

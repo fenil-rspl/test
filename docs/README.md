@@ -4,6 +4,7 @@ This is a frontend application for uploading files.
 
 ## Directory Structure
 
+```
 frontend/
 ├── docs/
 │   ├── FRONTEND.md
@@ -33,10 +34,17 @@ frontend/
 │   ├── App.tsx
 │   ├── index.tsx
 │   └── main.css
+├── .env.example
 ├── .gitignore
+├── architecture.json
+├── architecture.md
 ├── Dockerfile
 ├── index.html
-└── package.json
+├── package.json
+├── README.md
+├── test.md
+└── vite.config.js
+```
 
 ## Quick Start
 

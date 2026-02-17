@@ -1,13 +1,10 @@
-import React from 'react';
-import FileUpload from '../components/FileUpload';
-
-const Home = () => {
-  return (
-    <div>
-      <h2>Welcome to the File Upload App</h2>
-      <FileUpload />
-    </div>
-  );
-};
-
-export default Home;
+<template>
+  <div>
+    <h2>Home Page</h2>
+    <p>Welcome to the home page!</p>
+  </div>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({});
+</script>

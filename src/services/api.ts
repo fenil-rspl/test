@@ -1,7 +1,14 @@
 import axios from 'axios';
+import { VITE_API_URL } from '../utils/constants';
 
-const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL
+const apiClient = axios.create({
+  baseURL: VITE_API_URL,
+  headers: {
+    'Content-Type': 'application/json'
+  }
 });
 
-export default api;
+export const healthCheck = async () => {
+  const response = await apiClient.get('/health');
+  return response.data;
+};
